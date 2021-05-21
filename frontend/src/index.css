@@ -1,0 +1,140 @@
+main {
+  min-height: 80vh;
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.carousel a {
+  margin: 0 auto;
+}
+
+.home-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.main-content {
+  width: calc(80% - 15px);
+}
+
+.main-content-full-width {
+  width: 100%;
+}
+
+.sidebar {
+  border: 1px solid rgba(0,0,0,0.125);
+  margin-top: 1rem;
+  height: fit-content;
+  width: 20%;
+  max-width:20%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.sidebar h2 {
+  font-size: 1rem;
+  text-align: center;
+  margin: 10px 8px 0 8px;
+  border-bottom: 1px solid rgba(0,0,0,0.125);
+  padding: 0px;
+  padding-bottom: 6px;
+}
+
+.sidebar ul {
+  padding: 0;
+}
+
+.sidebar div.each-category {
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.sidebar div.each-category:first-child {
+  padding-top: 2px;
+}
+
+.sidebar div.each-category .category {
+  background-color: #d9534f;
+  color: white;
+  padding: 5px;
+}
+
+.highest-rating-products {
+  display: flex;
+  flex-direction: column;
+  padding: 4px;
+}
+
+.highest-rating-products .high-rating-product{
+  padding: 4px;
+}
+
+.table-responsive tr th {
+  vertical-align: middle;
+}
+.table-responsive tr td.assign-user-col {
+  vertical-align: middle;
+}
+
+div.dropdown {
+  width: 48%;
+}
+
+.dropdown-line {
+  display: flex;
+  justify-content: space-between;
+}
+
+#dropdown-variants-category, #dropdown-variants-brand {
+  background-color: #f7f7f9;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}

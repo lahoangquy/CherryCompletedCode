@@ -1,0 +1,1 @@
+export const NUMBER_OF_PRODUCT_PER_EACH_CATEGORY = 2;
